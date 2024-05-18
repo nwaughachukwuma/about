@@ -43,7 +43,7 @@ export default function Main() {
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                   {/* I'm a passionate and creative Frontend Developer with a love for crafting beautiful and performant web
                   experiences. */}
-                  {`Product & Full Stack Engineer. Focused on building delightful AI-powered products for the next billion users.`}
+                  {`Product & Full Stack Engineer. Focused on building delightful AI-powered apps for the next billion users.`}
                   {/* 
                   Find my recent posts on <Link className="hover:underline" href="https://medium.com/@c.nwaugha">
                   medium
