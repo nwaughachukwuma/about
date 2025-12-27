@@ -3,18 +3,18 @@ import { DescriptionCard } from "../DescriptionCard";
 
 export default function HobbiesSection() {
   return (
-    <section className="w-full">
+    <section className="w-full py-16">
       <div className="container px-4 lg:px-6">
-        <div className="mx-auto max-w-3xl space-y-6">
-          <div className="gap-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+        <div className="mx-auto max-w-4xl space-y-8">
+          <div className="text-center persian-border pb-6">
+            <h2 className="text-4xl font-bold tracking-tight sm:text-5xl text-persian-charcoal mb-4">
               Hobbies and Interests
             </h2>
-            <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            <p className="max-w-[700px] text-retro-gray md:text-xl/relaxed lg:text-lg/relaxed xl:text-xl/relaxed mx-auto leading-relaxed">
               {`Things I do when I'm not building or experimenting with new technologies.`}
             </p>
           </div>
-          <div className="grid gap-4 md:gapy-4 place-items-start gap-y-6 grid-cols-1 md:grid-cols-2">
+          <div className="grid gap-6 md:gap-y-6 place-items-start gap-y-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <DescriptionCard
               title="Technical Articles"
               link="https://medium.com/@c.nwaugha"

@@ -2,25 +2,26 @@ import React from "react";
 
 export function About() {
   return (
-    <div className="block max-w-3xl">
-      <div className="flex space-x-0 gap-x-10">
-        <p className="text-sm text-gray-700 sm:text-md">
+    <div className="persian-card p-8 max-w-4xl mx-auto">
+      <div className="prose prose-lg max-w-none">
+        <p className="text-retro-gray leading-relaxed mb-4">
           Built mission-critical RAG and video insights applications serving
           thousands of users. Passionate about building reliable,
           high-performance systems at scale. Deeply focused on optimizing for
           optimal UX, latency, and security.
-          <br />
-          <br />
-          I&apos;m on the bleeding edge of experimenting and deploying AI
-          products that bring emerging technologies powered by LLMs, RAG, and
-          Vector DBs to market.
-          <br />
-          <br />
-          When I&apos;m not busy, I contribute to OSS, e.g., vLLM
-          {" - "}
+        </p>
+        <p className="text-retro-gray leading-relaxed mb-4">
+          I'm on the bleeding edge of experimenting and deploying AI products
+          that bring emerging technologies powered by LLMs, RAG, and Vector DBs
+          to market.
+        </p>
+        <p className="text-retro-gray leading-relaxed">
+          When I'm not busy, I contribute to OSS, e.g., vLLM{" "}
           <a
-            className="text-blue-600"
+            className="text-persian-crimson hover:text-persian-gold transition-colors duration-300 font-semibold"
             href="https://github.com/vllm-project/vllm"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             https://github.com/vllm-project/vllm
           </a>
