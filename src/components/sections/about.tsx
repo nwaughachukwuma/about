@@ -11,12 +11,12 @@ export function About() {
           optimal UX, latency, and security.
         </p>
         <p className="text-retro-gray leading-relaxed mb-4">
-          I'm on the bleeding edge of experimenting and deploying AI products
-          that bring emerging technologies powered by LLMs, RAG, and Vector DBs
-          to market.
+          I&apos;m on the bleeding edge of experimenting and deploying AI
+          products that bring emerging technologies powered by LLMs, RAG, and
+          Vector DBs to market.
         </p>
         <p className="text-retro-gray leading-relaxed">
-          When I'm not busy, I contribute to OSS, e.g., vLLM{" "}
+          When I&apos;m not busy, I contribute to OSS, e.g., vLLM{" "}
           <a
             className="text-persian-crimson hover:text-persian-gold transition-colors duration-300 font-semibold"
             href="https://github.com/vllm-project/vllm"
