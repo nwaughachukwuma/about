@@ -32,8 +32,8 @@ export default function Main() {
         </Link>
       </header>
 
-      <main className="flex-1">
-        <section className="w-full py-12 md:py-20">
+      <main className="flex-1 space-y-20">
+        <section className="w-full pt-16">
           <div className="container px-4 lg:px-6">
             <div className="flex flex-col gap-2 sm:gap-4 lg:gap-4">
               <div className="gap-y-2">
@@ -41,38 +41,32 @@ export default function Main() {
                   Product & AI Engineer
                 </h1>
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 py-2">
-                  {`Building mission-critical AI systems at scale. Bringing delightful AI-powered products to the next billion users.`}
+                  {`Building mission-critical AI systems at scale and bringing delightful AI-powered products to the next billion users.`}
                 </p>
                 <div className="my-4">
                   <Social />
                 </div>
-                {/* <p className="mt-4 text-gray-500/60 animate-bounce">
-                  [Site rework In Progress]
-                </p> */}
+
+                <div className="my-4 py-6">
+                  <About />
+                </div>
               </div>
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-20">
+
+        <section className="w-full">
           <div className="container px-4 lg:px-6">
-            <About />
-          </div>
-        </section>
-        <section className="w-full py-12 md:py-20">
-          <div className="container px-4 lg:px-6">
-            <div className="mx-auto grid max-w-5xl items-start gap-6 lg:grid-cols-2 lg:gap-12">
-              <div className="flex flex-col justify-center gap-y-4">
-                <div className="gap-y-2">
-                  <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-                    My Projects
-                  </h2>
-                  <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                    Recent ventures - click on the link to learn more.
-                  </p>
-                </div>
+            <div className="mx-auto max-w-3xl space-y-6">
+              <div className="gap-y-2">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                  My Projects
+                </h2>
+                <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                  Recent ventures - click on the link to learn more.
+                </p>
               </div>
-              {/* <div className="grid gap-4 min-[400px]:grid-cols-2 lg:order-last"> */}
-              <div className="grid gap-4 md:gap-y-4 place-items-start gap-y-6 grid-cols-1 md:grid-cols-2 lg:order-last">
+              <div className="grid gap-4 md:gap-y-4 place-items-start gap-y-6 grid-cols-1 md:grid-cols-2">
                 {/* <div className="grid gap-1">
                   <h3 className="text-lg font-bold">VeedoAI</h3>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
@@ -171,21 +165,19 @@ export default function Main() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-20">
+
+        <section className="w-full">
           <div className="container px-4 lg:px-6">
-            <div className="mx-auto grid max-w-5xl items-start gap-6 lg:grid-cols-2 lg:gap-12">
-              <div className="flex flex-col justify-center gap-y-4">
-                <div className="gap-y-2">
-                  <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-                    Hobbies and Interests
-                  </h2>
-                  <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                    {`Things I do when I'm not building or experimenting with new technologies.`}
-                  </p>
-                </div>
+            <div className="mx-auto max-w-3xl space-y-6">
+              <div className="gap-y-2">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                  Hobbies and Interests
+                </h2>
+                <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                  {`Things I do when I'm not building or experimenting with new technologies.`}
+                </p>
               </div>
-              {/* <div className="grid gap-4 min-[400px]:grid-cols-2 lg:order-last"> */}
-              <div className="grid gap-4 md:gapy-4 place-items-start gap-y-6 grid-cols-1 md:grid-cols-2 lg:order-last">
+              <div className="grid gap-4 md:gapy-4 place-items-start gap-y-6 grid-cols-1 md:grid-cols-2">
                 {/* <div className="grid gap-1">
                   <h3 className="text-lg font-bold">HTML/CSS</h3>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
