@@ -10,13 +10,19 @@ type Props = {
 
 export function DescriptionCard({ title, children, link, role }: Props) {
   return (
-    <div className="block h-full w-full p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-200">
-      <div className="flex items-start justify-between">
+    <div className="persian-card h-full w-full p-6 border-2 border-retro-gray/30 hover:border-persian-gold/50 transition-all duration-300 group">
+      <div className="flex items-start justify-between h-full">
         <div className="flex-1">
-          <h3 className="text-lg font-bold mb-2 text-black">{title}</h3>
-          <p className="text-sm text-gray-700 mb-2">{children}</p>
+          <h3 className="text-xl font-bold mb-3 text-persian-charcoal group-hover:text-persian-crimson transition-colors duration-300">
+            {title}
+          </h3>
+          <p className="text-sm text-retro-gray mb-3 leading-relaxed">
+            {children}
+          </p>
           {role ? (
-            <p className="text-sm font-medium text-gray-900">Role: {role}</p>
+            <p className="text-sm font-semibold text-persian-sapphire bg-persian-cream/50 px-2 py-1 rounded-none inline-block">
+              {role}
+            </p>
           ) : null}
         </div>
         {link ? (
@@ -24,10 +30,13 @@ export function DescriptionCard({ title, children, link, role }: Props) {
             href={link}
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-2 p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors duration-200"
+            className="ml-3 p-3 rounded-none bg-persian-gold/10 hover:bg-persian-gold/20 border border-persian-gold/30 hover:border-persian-gold transition-all duration-300 group/link"
             aria-label={`Visit ${title}`}
           >
-            <ExternalLink size={16} className="text-black" />
+            <ExternalLink
+              size={18}
+              className="text-persian-charcoal group-hover/link:text-persian-crimson transition-colors duration-300"
+            />
           </a>
         ) : null}
       </div>
