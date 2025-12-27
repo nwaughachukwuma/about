@@ -4,37 +4,37 @@ import Link from "next/link";
 
 export default function Social() {
   return (
-    <nav className="sm:ml-auto flex gap-6 sm:gap-8">
+    <nav className="sm:ml-auto flex gap-8 sm:gap-10">
       <Link
-        className="inline-flex h-8 w-8 items-center justify-center p-2 rounded-none border-2 border-persian-gold/50 hover:border-persian-gold bg-persian-cream/50 hover:bg-persian-gold/10 transition-all duration-300 group"
+        className="inline-flex h-12 w-12 items-center justify-center p-3 rounded-none border-2 border-persian-gold/50 hover:border-persian-gold bg-persian-cream/50 hover:bg-persian-gold/10 transition-all duration-300 group hover:scale-105"
         href="https://www.linkedin.com/in/cpnwaugha"
         target="_blank"
       >
-        <LinkedinIcon className="h-5 w-5 text-persian-charcoal group-hover:text-persian-crimson transition-colors duration-300" />
+        <LinkedinIcon className="h-6 w-6 text-persian-charcoal group-hover:text-persian-crimson transition-colors duration-300" />
         <span className="sr-only">LinkedIn</span>
       </Link>
       <Link
-        className="inline-flex h-8 w-8 items-center justify-center p-2 rounded-none border-2 border-persian-gold/50 hover:border-persian-gold bg-persian-cream/50 hover:bg-persian-gold/10 transition-all duration-300 group"
+        className="inline-flex h-12 w-12 items-center justify-center p-3 rounded-none border-2 border-persian-gold/50 hover:border-persian-gold bg-persian-cream/50 hover:bg-persian-gold/10 transition-all duration-300 group hover:scale-105"
         href="https://github.com/nwaughachukwuma"
         target="_blank"
       >
-        <Github className="h-5 w-5 text-persian-charcoal group-hover:text-persian-crimson transition-colors duration-300" />
+        <Github className="h-6 w-6 text-persian-charcoal group-hover:text-persian-crimson transition-colors duration-300" />
         <span className="sr-only">GitHub</span>
       </Link>
       <Link
-        className="inline-flex h-8 w-8 items-center justify-center p-2 rounded-none border-2 border-persian-gold/50 hover:border-persian-gold bg-persian-cream/50 hover:bg-persian-gold/10 transition-all duration-300 group"
+        className="inline-flex h-12 w-12 items-center justify-center p-3 rounded-none border-2 border-persian-gold/50 hover:border-persian-gold bg-persian-cream/50 hover:bg-persian-gold/10 transition-all duration-300 group hover:scale-105"
         href="https://medium.com/@c.nwaugha"
         target="_blank"
       >
-        <BookOpen className="h-5 w-5 text-persian-charcoal group-hover:text-persian-crimson transition-colors duration-300" />
+        <BookOpen className="h-6 w-6 text-persian-charcoal group-hover:text-persian-crimson transition-colors duration-300" />
         <span className="sr-only">Medium</span>
       </Link>
       <Link
-        className="inline-flex h-8 w-8 items-center justify-center p-2 rounded-none border-2 border-persian-gold/50 hover:border-persian-gold bg-persian-cream/50 hover:bg-persian-gold/10 transition-all duration-300 group"
+        className="inline-flex h-12 w-12 items-center justify-center p-3 rounded-none border-2 border-persian-gold/50 hover:border-persian-gold bg-persian-cream/50 hover:bg-persian-gold/10 transition-all duration-300 group hover:scale-105"
         href="https://chukwuman.substack.com"
         target="_blank"
       >
-        <Newspaper className="h-5 w-5 text-persian-charcoal group-hover:text-persian-crimson transition-colors duration-300" />
+        <Newspaper className="h-6 w-6 text-persian-charcoal group-hover:text-persian-crimson transition-colors duration-300" />
         <span className="sr-only">Substack</span>
       </Link>
     </nav>
