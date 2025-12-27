@@ -7,6 +7,7 @@ import React from "react";
 import Link from "next/link";
 import Footer from "./sections/footer";
 import Social from "./sections/social";
+import About from "./sections/about";
 import { prefix } from "../utils/prefix";
 import { DescriptionCard } from "./DescriptionCard";
 
@@ -37,16 +38,10 @@ export default function Main() {
             <div className="flex flex-col gap-2 sm:gap-4 lg:gap-4">
               <div className="gap-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  Software Product Engineer
+                  Product & AI Engineer
                 </h1>
-                <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  {/* I'm a passionate and creative Frontend Developer with a love for crafting beautiful and performant web
-                  experiences. */}
-                  {`Product & Full Stack Engineer. Focused on building delightful AI-powered apps for the next billion users.`}
-                  {/* 
-                  Find my recent posts on <Link className="hover:underline" href="https://medium.com/@c.nwaugha">
-                  medium
-                  </Link> */}
+                <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 py-2">
+                  {`Building mission-critical AI systems at scale. Bringing delightful AI-powered products to the next billion users.`}
                 </p>
                 <div className="my-4">
                   <Social />
@@ -56,6 +51,11 @@ export default function Main() {
                 </p> */}
               </div>
             </div>
+          </div>
+        </section>
+        <section className="w-full py-12 md:py-20">
+          <div className="container px-4 lg:px-6">
+            <About />
           </div>
         </section>
         <section className="w-full py-12 md:py-20">
@@ -134,6 +134,38 @@ export default function Main() {
                   link="https://cayalx.com"
                 >
                   {`Car hire and ride-share service that puts riders & drivers in control of their experience`}
+                </DescriptionCard>
+
+                <DescriptionCard
+                  title="AudioRA"
+                  role="AI Engineer"
+                  link="https://audiora.veedo.ai"
+                >
+                  {`AI-powered audio insights and analysis`}
+                </DescriptionCard>
+
+                <DescriptionCard
+                  title="Siruss"
+                  role="Creator"
+                  link="https://siruss.vercel.app"
+                >
+                  {`Innovative AI application`}
+                </DescriptionCard>
+
+                <DescriptionCard
+                  title="Amped"
+                  role="Product Engineer"
+                  link="https://amped.veedo.ai"
+                >
+                  {`Advanced AI platform`}
+                </DescriptionCard>
+
+                <DescriptionCard
+                  title="vLLM"
+                  role="Open Source Contributor"
+                  link="https://github.com/vllm-project/vllm"
+                >
+                  {`High-throughput, memory-efficient inference and serving engine for LLMs`}
                 </DescriptionCard>
               </div>
             </div>
