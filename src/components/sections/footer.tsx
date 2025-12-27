@@ -4,7 +4,7 @@ import Social from './social'
 export default function Footer() {
     return (
         <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-        <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 Chukwuma Nwaugha. All rights reserved.</p>
+        <p className="text-xs text-gray-500 dark:text-gray-400">© 2026 Chukwuma Nwaugha. All rights reserved.</p>
         
         <Social />
       </footer>
