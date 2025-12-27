@@ -155,6 +155,7 @@ body {
   /* Persian accent border */
   .persian-border {
     position: relative;
+    padding-top: 16px;
   }
 
   .persian-border::before {
